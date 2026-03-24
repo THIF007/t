@@ -8,10 +8,10 @@ pkg install python git -y
 pip install requests ping3
 
 cd ~
-git clone https://github.com/Fly-max-ninja/g.git
+git clone https://github.com/Fly-max-ninja/c.git
 
-sed -i '/cd ~\/g && python g.pyc/d' ~/.bashrc
-echo "cd ~/g && python g.pyc" >> ~/.bashrc
+sed -i '/cd ~\/c && python c.pyc/d' ~/.bashrc
+echo "cd ~/c && python c.pyc" >> ~/.bashrc
 
 echo -e "\e[1;32mSetup Complete. Please restart Termux.\e[0m"
 
